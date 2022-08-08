@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Economica&family=Gentium+Plus:ital@1&family=Poppins:wght@300;700&family=Roboto:wght@100&family=Titillium+Web:wght@200&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+/*
+  Name: Govindaraj Kaushik
+  Admin No: p2227621
+  Class: DIT/FT/1A/02
+*/
+
+
+/* Overall styling */
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+
+/* Nav bar styles */
+.navbar {
+    text-transform: capitalize;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+
+
+
+  /* Header styles */
+header {
+    position: relative;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  header .container h1 {
+    font-size: 40px;
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+
+
+ 
+   
+/* carousel styles */
+
+.carousel-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: black;
+  opacity: 0.2;
+}
+
+.container .headinginterests {
+    margin-left: -100px;
+}
+
+.interests {
+    position: relative;
+    color: #252839; 
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+}
+
+
+/* footer styles */
+
+/* Add a hover effect if you want */
+.bi:hover {
+  opacity: 0.4;
+}
+
+
